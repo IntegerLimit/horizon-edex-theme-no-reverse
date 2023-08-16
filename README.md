@@ -3,23 +3,23 @@
   <br><br>
 </p>
 
-## Horizon eDEX-UI Theme (`horizon-disrupted.json`) Fork
+## Horizon eDEX-UI Theme Fork
 
 This fork provides three different types, for each theme (`horizon-disrupted` and `horizon-full`).
 The three types are:
-- `no-shell-reverse`. This makes it so the shells are no longer reversed, and go from left to right, **instead of** right to left.
-- `no-memory-reverse`. This makes it so that the active memory slots are highlighted with green, and free slots highlighted with dark blue, **instead of** the other way around.
-- `no-reverse`. This has both of the above changes.
+- `-no-shell-reverse`. This makes it so the shells are no longer reversed, and go from left to right, **instead of** right to left.
+- `-no-memory-reverse`. This makes it so that the active memory slots are highlighted with green, and free slots highlighted with dark blue, **instead of** the other way around.
+- `-no-reverse`. This has both of the above changes.
 
 Horizon is a modern, sexy and colorful theme for [eDEX-UI](https://github.com/GitSquared/edex-ui).
 
 To install it, download the `fonts` and `themes` folders of this repo and put them in your [eDEX config directory](https://github.com/GitSquared/edex-ui/wiki/userData).
 
-Then, launch eDEX, use `Ctrl+Shift+S` (or `⌘+Shift+S`) to open the settings, select `horizon-disrupted` in the "theme" dropdown menu, hit "Save to Disk" and "Reload UI". Done!
+Then, launch eDEX, use `Ctrl+Shift+S` (or `⌘+Shift+S`) to open the settings, select your chosen theme (`horizon-disputed` or its versions, or `horizon-full` or its versions) in the "theme" dropdown menu, hit "Save to Disk" and "Reload UI". Done!
 
-Horizon also has a `-full` variant with no on-screen keyboard and a larger terminal: `horizon-full`. Screenshots below.
+The `-full` variant has no on-screen keyboard and a larger terminal. Screenshots below.
 
-*Note: In this theme, the visual order of terminal tabs is reversed (unless using `no-shell-reverse` or `no-reverse` versions), and the memory monitor emphasizes free memory slots instead of used ones (unless using `no-memory-reverse` or `no-reverse` versions).*
+*Note: In this theme, the visual order of terminal tabs is reversed (unless using `-no-shell-reverse` or `-no-reverse` versions), and the memory monitor emphasizes free memory slots instead of used ones (unless using `-no-memory-reverse` or `-no-reverse` versions).*
 
 
 <p align="center">
