@@ -3,7 +3,9 @@
   <br><br>
 </p>
 
-## Horizon eDEX-UI Theme (`horizon-disrupted.json`)
+## Horizon eDEX-UI Theme (`horizon-disrupted.json`) Fork
+
+This fork provides two new themes, `horizon-full-no-shell-reverse` and `horizon-full-no-shell-reverse`. These are the same as their original counterparts, but the shell order is no longer reversed.
 
 Horizon is a modern, sexy and colorful theme for [eDEX-UI](https://github.com/GitSquared/edex-ui).
 
@@ -13,7 +15,7 @@ Then, launch eDEX, use `Ctrl+Shift+S` (or `⌘+Shift+S`) to open the settings, s
 
 Horizon also has a `-full` variant with no on-screen keyboard and a larger terminal: `horizon-full`. Screenshots below.
 
-*Note: In this theme, the visual order of terminal tabs is reversed, and the memory monitor emphasizes free memory slots instead of used ones.*
+*Note: In this theme, the visual order of terminal tabs is reversed (unless using `no-shell-reversed` version), and the memory monitor emphasizes free memory slots instead of used ones.*
 
 
 
