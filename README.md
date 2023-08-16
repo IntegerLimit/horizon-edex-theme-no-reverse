@@ -5,7 +5,11 @@
 
 ## Horizon eDEX-UI Theme (`horizon-disrupted.json`) Fork
 
-This fork provides two new themes, `horizon-full-no-shell-reverse` and `horizon-full-no-shell-reverse`. These are the same as their original counterparts, but the shell order is no longer reversed.
+This fork provides three different types, for each theme (`horizon-disrupted` and `horizon-full`).
+The three types are:
+- `no-shell-reverse`. This makes it so the shells are no longer reversed, and go from left to right, **instead of** right to left.
+- `no-memory-reverse`. This makes it so that the active memory slots are highlighted with green, and free slots highlighted with dark blue, **instead of** the other way around.
+- `no-reverse`. This has both of the above changes.
 
 Horizon is a modern, sexy and colorful theme for [eDEX-UI](https://github.com/GitSquared/edex-ui).
 
@@ -15,11 +19,8 @@ Then, launch eDEX, use `Ctrl+Shift+S` (or `⌘+Shift+S`) to open the settings, s
 
 Horizon also has a `-full` variant with no on-screen keyboard and a larger terminal: `horizon-full`. Screenshots below.
 
-*Note: In this theme, the visual order of terminal tabs is reversed (unless using `no-shell-reversed` version), and the memory monitor emphasizes free memory slots instead of used ones.*
+*Note: In this theme, the visual order of terminal tabs is reversed (unless using `no-shell-reverse` or `no-reverse` versions), and the memory monitor emphasizes free memory slots instead of used ones (unless using `no-memory-reverse` or `no-reverse` versions).*
 
-
-
-## moar screenshot plz
 
 <p align="center">
   <img alt="screenshot" src="https://github.com/GitSquared/horizon-edex-theme/raw/master/screenshots/bobfish.png">
